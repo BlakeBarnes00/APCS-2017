@@ -1,5 +1,10 @@
 package mod1.Assignments;
 
+/**
+ * Purpose: To get a basic grasp of println
+ * @author Ellis
+ * @version 08/23/17
+ */
 public class StudentInfoCard {
     public static void main(String[] args) {
         printBanner();
