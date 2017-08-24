@@ -1,0 +1,11 @@
+PROJECT TITLE: 01.05 StudentInfoCard / StudentInfoCard.java
+         PURPOSE OF PROJECT: Use print methods to print student info.
+         VERSION or DATE: 08/23/17
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         <+s>: I decided to use IntelliJ as my IDE (I am very used to using it.) I am very
+         used to using Java and other languages similar (C/C++), so it was fairly easy for
+         me.
+
+         ***********************************************************************************
+         In the future: I will get in better habit of formatting my code.
