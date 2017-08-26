@@ -75,3 +75,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# Temporary directories
+temp/
+Temp/
+tmp/
