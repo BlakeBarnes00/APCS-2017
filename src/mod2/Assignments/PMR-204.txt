@@ -1,0 +1,9 @@
+PROJECT TITLE: 02.04 CalculationsV6.java
+         PURPOSE OF PROJECT: Learn how to use doubles and integers
+         VERSION or DATE: 09/04/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I learned how to use Integers and Doubles by assigning them to the variables.
+
+         ***********************************************************************************
+         In the future: I will use assigned variables instead of always using inline ones.
