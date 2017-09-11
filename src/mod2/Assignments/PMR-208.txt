@@ -1,0 +1,12 @@
+PROJECT TITLE: 02.08 CurrencyV1.java
+         PURPOSE OF PROJECT: To convert currencies properly
+         VERSION or DATE: 09/10/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I learned ways to convert things properly across multiple different examples. I
+         used casting and other things that Java includes to help me achieve my total goal
+         in the end.
+
+         ***********************************************************************************
+         In the future I will most likely use these methods to help me accurately do math in
+         Java.
