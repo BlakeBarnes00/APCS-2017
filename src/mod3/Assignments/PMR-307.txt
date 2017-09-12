@@ -1,0 +1,12 @@
+PROJECT TITLE: 03.07 GradesV3.java
+         PURPOSE OF PROJECT: Input program for Grading
+         VERSION or DATE: 09/12/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I used user input to take in custom values for grades. The user input is very
+         important to all computers, this will help me and other users learn how to
+         properly get information from the outside in.
+
+         ***********************************************************************************
+         I will keep using user input to get information from the outside world into my
+         program so that I don't have to 'hard code' everything in.
