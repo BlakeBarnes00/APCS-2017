@@ -1,0 +1,11 @@
+PROJECT TITLE: 03.04 Artwork.java
+         PURPOSE OF PROJECT: ASCII art program.
+         VERSION or DATE: 09/11/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I used escape sequences to easily format my ascii art. They are very useful to make
+         your program look clean and sorted out.
+
+         ***********************************************************************************
+         I will continue to use them to make my programs output look very clean and easy to
+         read and understand.
