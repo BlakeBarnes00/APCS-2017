@@ -1,0 +1,12 @@
+PROJECT TITLE: 02.07 Grades.java
+    PURPOSE OF PROJECT: To show how to use Java's simple shortcuts
+    VERSION or DATE: 09/12/2017
+    AUTHORS: Ellis Barnes
+    **************************** P M R ************************************************
+    I learned how to use different shortcuts to adding, subtracting and multiplying.
+    I used them to make a program that will properly compile my "grades" and make them
+    all be averaged out and show the total amount of points that I could have earned.
+
+    ***********************************************************************************
+    I will continue to use these shortcuts to make my programs look neater to other
+    programmers so that they will have a better understanding to the project/program.
