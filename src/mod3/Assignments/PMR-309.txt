@@ -1,0 +1,11 @@
+PROJECT TITLE: 03.09 OnlinePurchase.java
+         PURPOSE OF PROJECT: Input Challenge Program
+         VERSION or DATE: 09/23/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I used various methods of getting input and changing them into smaller strings,
+         or reading small parts of strings.
+
+         ***********************************************************************************
+         I will keep using these practices as I advance so that I can get better user
+         input into the programs I want.
