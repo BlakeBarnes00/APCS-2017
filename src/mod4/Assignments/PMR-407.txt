@@ -1,0 +1,11 @@
+PROJECT TITLE: 04.07 BMI.java
+         PURPOSE OF PROJECT: Learn about if-else-if
+         VERSION or DATE: 10/20/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I learned how to properly use if and else-if statements together. I learned that
+         they will execute blocks of code that are inside of the functions.
+
+         ***********************************************************************************
+         I will keep using these like normal because that is a good way to make decisions in
+         programming.

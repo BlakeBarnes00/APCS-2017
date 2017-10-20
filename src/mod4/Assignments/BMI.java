@@ -1,7 +1,5 @@
 package mod4.Assignments;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.Scanner;
 
 public class BMI {
@@ -24,7 +22,7 @@ public class BMI {
         System.out.println(height);
 
         // BMI Converted to Inches and Pounds
-        double BMI = weight/(height*height);
+        double BMI = (weight/(height*height))*703;
         String BMIStatus = "";
 
         if(BMI <= 18.5)
