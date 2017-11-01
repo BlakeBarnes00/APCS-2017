@@ -1,5 +1,10 @@
 package mod4.Assignments;
 
+/**
+ * @author Ellis Barnes
+ * @version 10/18/17
+ */
+
 import java.util.Scanner;
 
 public class TDEE {
@@ -31,6 +36,7 @@ public class TDEE {
         String ActivityLevel = in.next();
 
         double ActivityFactor = 0, TDEE = 0;
+
         // Since there is not a difference in the first two genders, you don't need to use
         // logical operators
         if(ActivityLevel.equals("A")) {
@@ -43,7 +49,7 @@ public class TDEE {
         }
 
         // Organize it this way so that there is no repeated code for fuck sakes.
-        if(gender.equals("F")) {
+        if(gender.compareToIgnoreCase("F") == 1) {
             if(ActivityLevel.equals("C")) {
                 ActivityFactor = 1.5;
                 TDEE = BMR * ActivityFactor;
@@ -61,7 +67,7 @@ public class TDEE {
                 TDEE = BMR * ActivityFactor;
             }
         }
-        else if(gender.equals("M")) {
+        else if(gender.compareToIgnoreCase("M") == 1) {
             if(ActivityLevel.equals("C")) {
                 ActivityFactor = 1.6;
                 TDEE = BMR * ActivityFactor;
@@ -81,7 +87,7 @@ public class TDEE {
         }
 
         System.out.println("Your Results:");
-        System.out.println("Name: " + name + "\t\tGender: " + gender);
+        System.out.println("Name: " + name + "\t\tGender: " + gender.toUpperCase());
         System.out.println("BMR: " + BMR + " calories" + "\t\tActivity Factor: " + ActivityFactor);
         System.out.println("TDEE: " + TDEE);
     }
