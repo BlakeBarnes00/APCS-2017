@@ -1,0 +1,12 @@
+PROJECT TITLE: 04.07 FamilyStructure.java
+         PURPOSE OF PROJECT: Reading Files
+         VERSION or DATE: 11/03/2017
+         AUTHORS: Ellis Barnes
+         **************************** P M R ************************************************
+         I learned how to read files into the program so that I can use them to manipulate
+         what I want to do. I can compare different lines to one another, store lines that I
+         want and so on.
+
+         ***********************************************************************************
+         I will use these file reading techniques to improve my programs and see what I can
+         do with them.
