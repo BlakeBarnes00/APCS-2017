@@ -1,5 +1,14 @@
 package mod5.Assignments;
 
+/**
+ * This program reads a text file, then after reading it
+ * I parse the file for specific character patterns to get
+ * the family structure.
+ *
+ * @author Ellis Barnes
+ * @version 11/09/17
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
