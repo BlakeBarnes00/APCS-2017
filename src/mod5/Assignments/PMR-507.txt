@@ -1,0 +1,13 @@
+PROJECT TITLE: 5.07 FamilyStructure.java
+	PURPOSE OF PROJECT: Reading/Writing Files
+	VERSION or DATE: 11/26/2017
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+		In this program I learned how to read and write to files, as well as using 
+		nested loops to handle different tasks that are assigned. I realized how 
+		useful nested loops are together in order to get a desired result in a 
+		specific order.
+	***********************************************************************************
+		I will continue to use nested loops, of course, so that I can handle tasks
+		such as loops and other data entry methods. I will also use file input and
+		output to make my programs more functional.

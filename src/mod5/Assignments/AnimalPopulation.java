@@ -56,7 +56,7 @@ public class AnimalPopulation {
             try {
                 total += Integer.parseInt(str);
             } catch (NumberFormatException e) {
-                continue;
+                continue; // ignore any exception and keep progresssing
             }
         }
         System.out.println("Average: " + (total / trials));
