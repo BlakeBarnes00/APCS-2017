@@ -6,14 +6,7 @@ import java.util.Scanner;
 
 public class SecretPasscodes {
     public static void main(String[] args) {
-        System.out.println("\t\t\t\t\tPassword Generator Menu");
-        System.out.println("*************************************************************");
-        System.out.println("*\t[1] Lowercase Letters                                   *");
-        System.out.println("*\t[2] Uppercase Letters                                   *");
-        System.out.println("*\t[3] Mixture of Upper and Lowercase                      *");
-        System.out.println("*\t[4] Numbers and Letters                                 *");
-        System.out.println("*\t[5] Quit                                                *");
-        System.out.println("*************************************************************");
+        printMenu();
 
         boolean quit = false; // Flag for if the program needs to be quit
         Scanner input = new Scanner(System.in); // Input handler
@@ -89,5 +82,17 @@ public class SecretPasscodes {
         }
 
         return password;
+    }
+
+    // Prints the choice menu at the start
+    static void printMenu() {
+        System.out.println("\t\t\t\t\tPassword Generator Menu");
+        System.out.println("*************************************************************");
+        System.out.println("*\t[1] Lowercase Letters                                   *");
+        System.out.println("*\t[2] Uppercase Letters                                   *");
+        System.out.println("*\t[3] Mixture of Upper and Lowercase                      *");
+        System.out.println("*\t[4] Numbers and Letters                                 *");
+        System.out.println("*\t[5] Quit                                                *");
+        System.out.println("*************************************************************");
     }
 }
