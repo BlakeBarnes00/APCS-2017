@@ -1,0 +1,15 @@
+PROJECT TITLE: 5.07 SecretPasscodes.java
+	PURPOSE OF PROJECT: Challenge Project
+	VERSION or DATE: 11/28/2017
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+		This program was a challenge that made me have to think outside of the box
+		on how to randomly generate things from an ASCII table. With this I used
+		functions that would help me break the program down into more managable 
+		and reusable code so that I didn't have to rewrite numerous lines of code.
+		I also used different ways of handling the generation and avoiding 
+		unwanted characters from slipping into the passwords.
+	***********************************************************************************
+		I find the use of functions and other ways of managing this code to be very
+		useful, I will continue to use select practices from here in future 
+		programs.
