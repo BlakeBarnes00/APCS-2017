@@ -1,4 +1,4 @@
-package mod6.Assignments;
+package mod6.Lessons;
 
 /**
  * Annual Weather description: Program that displays average
