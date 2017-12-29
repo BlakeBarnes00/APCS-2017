@@ -8,6 +8,7 @@ package mod6.Assignments;
  * @version 12/18/2017
  *
  */
+import java.text.DecimalFormat;
 import java.util.Scanner;
 public class AnnualWeatherV2 {
     public static void main(String[] args) {
@@ -68,27 +69,35 @@ public class AnnualWeatherV2 {
         System.out.println();
 
         System.out.println("***************************************************");
+
+        // Limit the decimal formats to two digits
+        DecimalFormat numberFormat = new DecimalFormat("#.00");
+
         for (int index = 0; index < temperature.length; index++) {
             if (tempLabel.equalsIgnoreCase("C") && precipLabel.equalsIgnoreCase("cm."))
-                System.out.println(month[index] + "\t\t\t" + ((temperature[index]-32)/1.8) +
-                        "\t\t\t\t" + precipitation[index]*2.54);
+                System.out.println(month[index] + "\t\t\t" +
+                        numberFormat.format(((temperature[index]-32)/1.8)) +
+                        "\t\t\t\t" + numberFormat.format(precipitation[index]*2.54));
 
             else if (tempLabel.equalsIgnoreCase("F") && precipLabel.equalsIgnoreCase("cm."))
-                System.out.println(month[index] + "\t\t\t" + temperature[index] +
-                        "\t\t\t\t" + precipitation[index]*2.54);
+                System.out.println(month[index] + "\t\t\t" +
+                        numberFormat.format(temperature[index]) +
+                        "\t\t\t\t" + numberFormat.format(precipitation[index]*2.54));
 
             else if (tempLabel.equalsIgnoreCase("C") && precipLabel.equalsIgnoreCase("in."))
-                System.out.println(month[index] + "\t\t\t" + ((temperature[index]-32)/1.8) +
-                        "\t\t\t\t" + precipitation[index]);
+                System.out.println(month[index] + "\t\t\t" +
+                        numberFormat.format(((temperature[index]-32)/1.8)) +
+                        "\t\t\t\t" + numberFormat.format(precipitation[index]));
 
             else if (tempLabel.equalsIgnoreCase("F") && precipLabel.equalsIgnoreCase("in."))
-                System.out.println(month[index] + "\t\t\t" + temperature[index] +
-                        "\t\t\t\t" + precipitation[index]);
+                System.out.println(month[index] + "\t\t\t" +
+                        numberFormat.format(temperature[index]) +
+                        "\t\t\t\t" + numberFormat.format(precipitation[index]));
         }
 
         System.out.println("***************************************************");
 
-        System.out.println("Average: " + (totalTemp / 12) + "\tTotal: " + totalPrecip);
+        System.out.println("Average: " + numberFormat.format((totalTemp / 12)) + "\tTotal: " + totalPrecip);
 
     }
 }
