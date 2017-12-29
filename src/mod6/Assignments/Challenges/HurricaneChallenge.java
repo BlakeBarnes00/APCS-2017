@@ -45,7 +45,28 @@ public class HurricaneChallenge {
 
         DecimalFormat formatter = new DecimalFormat("#.000");
         for(double a : speedMPH) {
-            System.out.println(formatter.format(a));
+            //System.out.println(formatter.format(a));
         }
+
+        ArrayList<ArrayList> list = new ArrayList<>();
+        //ArrayList[] list = {year, pressure, speed, month, name};
+        list.add(year);
+        list.add(pressure);
+        list.add(speed);
+        list.add(month);
+        list.add(name);
+        print(list);
+    }
+
+    static void print(ArrayList l) {
+        System.out.print("Time frame(years): ");
+        Scanner in = new Scanner(System.in);
+        int min = in.nextInt();
+        int max = in.nextInt();
+
+        System.out.println("\t\t\t\t\t\tHurricanes " + min + " - " + max);
+        System.out.println("Year\tHurricane\t\tCategory\tPressure (mb)\tWind Speed (mph)");
+        System.out.println("=====================================================================");
+
     }
 }
