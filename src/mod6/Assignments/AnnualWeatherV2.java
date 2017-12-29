@@ -69,19 +69,19 @@ public class AnnualWeatherV2 {
 
         System.out.println("***************************************************");
         for (int index = 0; index < temperature.length; index++) {
-            if (tempLabel.equals("C") && precipLabel.equals("cm."))
+            if (tempLabel.equalsIgnoreCase("C") && precipLabel.equalsIgnoreCase("cm."))
                 System.out.println(month[index] + "\t\t\t" + ((temperature[index]-32)/1.8) +
                         "\t\t\t\t" + precipitation[index]*2.54);
 
-            else if (tempLabel.equals("F") && precipLabel.equals("cm."))
+            else if (tempLabel.equalsIgnoreCase("F") && precipLabel.equalsIgnoreCase("cm."))
                 System.out.println(month[index] + "\t\t\t" + temperature[index] +
                         "\t\t\t\t" + precipitation[index]*2.54);
 
-            else if (tempLabel.equals("C") && precipLabel.equals("in."))
+            else if (tempLabel.equalsIgnoreCase("C") && precipLabel.equalsIgnoreCase("in."))
                 System.out.println(month[index] + "\t\t\t" + ((temperature[index]-32)/1.8) +
                         "\t\t\t\t" + precipitation[index]);
 
-            else if (tempLabel.equals("F") && precipLabel.equals("in."))
+            else if (tempLabel.equalsIgnoreCase("F") && precipLabel.equalsIgnoreCase("in."))
                 System.out.println(month[index] + "\t\t\t" + temperature[index] +
                         "\t\t\t\t" + precipitation[index]);
         }
