@@ -1,0 +1,12 @@
+PROJECT TITLE: 5.07 FamilyStructure.java
+	PURPOSE OF PROJECT: Reading/Writing Files
+	VERSION or DATE: 11/26/2017
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    With this lesson I learned how to format strings to a certain way so that they
+	    will look nice in the final product. I used to DecimalFormatter class so that
+	    I can limit the decimals in the final output, and then tab formatter so that
+	    I can space my lines perfectly.
+	***********************************************************************************
+	    I will continue to use formatting in my programs so that they look nice and are
+	    easy to understand.
