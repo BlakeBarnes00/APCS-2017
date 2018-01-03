@@ -52,8 +52,10 @@ public class HurricaneChallenge {
         System.out.println("Year\tHurricane\t\tCategory\tPressure (mb)\tWind Speed (mph)");
         System.out.println("=====================================================================");
 
+
         for(String a : l) {
-            System.out.println(a);
+            if (Integer.parseInt(a.substring(0, 4)) >= min && Integer.parseInt(a.substring(0, 4)) <= max)
+                System.out.println(a);
         }
     }
 
@@ -63,7 +65,6 @@ public class HurricaneChallenge {
         for (int i = 0; i < year.size(); i++) {
             s.add(year.get(i) + "\t" + name.get(i) + "\t\t\t\t0" + "\t\t\t" + pressure.get(i) + "\t\t\t\t" + format.format(mph.get(i)));
         }
-
         return s;
     }
 }
