@@ -61,24 +61,23 @@ public class HurricaneChallenge {
 
     static ArrayList<String> format(ArrayList<Integer> year, ArrayList<Integer> pressure, ArrayList<Double> mph, ArrayList<String> name) {
         ArrayList<String> s         = new ArrayList<>();
-        ArrayList<Integer> catagory = new ArrayList<>();
+        ArrayList<Integer> category = new ArrayList<>();
 
         DecimalFormat format = new DecimalFormat("#.00");
         for (double speed : mph) {
             if (speed >= 74 && speed <= 95)
-                catagory.add(1);
+                category.add(1);
             else if (speed >= 96 && speed <= 110)
-                catagory.add(2);
+                category.add(2);
             else if (speed >= 111 && speed <= 129)
-                catagory.add(3);
+                category.add(3);
             else if (speed >= 130 && speed <= 156)
-                catagory.add(4);
+                category.add(4);
             else if (speed >= 157)
-                catagory.add(5);
-
+                category.add(5);
         }
         for (int i = 0; i < year.size(); i++) {
-            s.add(year.get(i) + "\t" + name.get(i) + "\t\t\t\t"+ catagory.get(i) + "\t\t\t" + pressure.get(i) + "\t\t\t\t" + format.format(mph.get(i)));
+            s.add(year.get(i) + "\t" + name.get(i) + "\t\t\t\t"+ category.get(i) + "\t\t\t" + pressure.get(i) + "\t\t\t\t" + format.format(mph.get(i)));
         }
         return s;
     }
