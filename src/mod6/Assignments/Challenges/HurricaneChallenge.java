@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -75,6 +76,7 @@ public class HurricaneChallenge {
 
         ArrayList<Double> averages = new ArrayList<>();
         DecimalFormat format = new DecimalFormat("#.00");
+        
         double catavg = 0, pressavg = 0, windspeed = 0;
         for (int i = 0; i < category.size(); i++) {
             catavg      += category.get(i).doubleValue();
@@ -86,6 +88,8 @@ public class HurricaneChallenge {
         averages.add(windspeed / mph.size());
 
         System.out.println("Average:\t\t\t\t" + format.format(averages.get(0)) + "\t\t\t" + format.format(averages.get(1)) + "\t\t\t\t" + format.format(averages.get(2)));
+        System.out.println("Minimum:\t\t\t\t" + Collections.min(category) + "\t\t\t" + Collections.min(pressure) + "\t\t\t\t" + format.format(Collections.min(mph)));
+        System.out.println("Maximum:\t\t\t\t" + Collections.max(category) + "\t\t\t" + Collections.max(pressure) + "\t\t\t\t" + format.format(Collections.max(mph)));
     }
 
     static ArrayList<String> format(ArrayList<Integer> year, ArrayList<Integer> pressure, ArrayList<Double> mph, ArrayList<String> name, ArrayList<Integer> category) {
