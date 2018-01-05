@@ -1,0 +1,10 @@
+PROJECT TITLE: 6.04 HurricaneChallenge.java
+	PURPOSE OF PROJECT: Formatting and Arrays
+	VERSION or DATE: 1/05/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    This lesson I showed that I know how to format strings and use arrays by
+	    sorting out data into different arrays, then looping through them using
+	    the for-each loop.
+	***********************************************************************************
+	    I will keep using for-each loops to loop through arrays of specific types.
