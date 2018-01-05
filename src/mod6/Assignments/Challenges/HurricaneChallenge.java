@@ -76,7 +76,7 @@ public class HurricaneChallenge {
 
         ArrayList<Double> averages = new ArrayList<>();
         DecimalFormat format = new DecimalFormat("#.00");
-        
+
         double catavg = 0, pressavg = 0, windspeed = 0;
         for (int i = 0; i < category.size(); i++) {
             catavg      += category.get(i).doubleValue();
