@@ -2,7 +2,6 @@ package mod6.Assignments.Challenges;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.lang.reflect.Array;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
