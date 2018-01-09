@@ -1,0 +1,13 @@
+PROJECT TITLE: 5.07 PlanetGravity.java
+	PURPOSE OF PROJECT: Static Methods
+	VERSION or DATE: 1/09/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    I used the functions to break down the problems into smaller more manageable
+	    parts so that I could easily understand them. I also used formatting and
+	    arrays to put specific things in certain ways. I also used the Math class to
+	    use exponents.
+	***********************************************************************************
+	    I will use all these things that I described in future programs so that my
+	    programs will be better looking and easier to understand from somebody else's
+	    perspective.

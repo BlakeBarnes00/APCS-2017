@@ -9,17 +9,29 @@ public class PlanetGravity {
         print(planets, diameter, mass);
     }
 
+    public static double calculate(double d, double m) {
+
+        /**
+         * This is the formula used to find the gravity
+         * G is the gravity constant, M is the mass of
+         * the planet, r is the radius of the planet.
+         *
+         *      G * M
+         * g =  -----
+         *       r^2
+         */
+
+        double gravityConstant = 6.67e-11;
+        return (gravityConstant * m) / Math.pow(d/2, 2);
+    }
+
     public static void print(String[] p, double[] d, double[] m) {
         System.out.printf("%40s %n", "Planetary Data");
         System.out.printf("%s %20s %20s %20s %n", "Planet", "Diameter (km)", "Mass (kg)", "g (m/s^2)");
         System.out.println("---------------------------------------------------------------------");
         for(int i = 0; i < p.length; i++) {
-            System.out.printf("%-13s %9.1f \t\t\t%11.2e \t%13.2f %n", p[i], d[i], m[i], calculate(d[i], m[i]));
+            double g = calculate(d[i], m[i]);
+            System.out.printf("%-13s %9.1f \t\t\t%11.2e \t%16.2e %n", p[i], d[i], m[i], g);
         }
-    }
-
-    public static double calculate(double d, double m) {
-        double gravityConstant = 6.67e-11;
-        return ((gravityConstant) / m) / d;
     }
 }
