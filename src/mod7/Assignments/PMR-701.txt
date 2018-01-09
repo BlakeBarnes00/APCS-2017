@@ -1,0 +1,12 @@
+PROJECT TITLE: 5.07 CirclePoints.java
+	PURPOSE OF PROJECT: Static Methods
+	VERSION or DATE: 1/08/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    I started to use static methods to slowly break apart my code and make it more
+	    modular and easier to understand. I also learned about the Math class, and it's
+	    predefined functions that I can use to solve common math problems.
+	***********************************************************************************
+	    I will take a better understanding of Java's Math library/class and use it to
+	    do other math problems I have so that I don't have to go through a ton of other
+	    useless code to do problems that have already been solved.

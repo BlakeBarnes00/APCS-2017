@@ -90,6 +90,7 @@ public class HurricaneChallenge {
         System.out.println("Average:\t\t\t\t" + format.format(averages.get(0)) + "\t\t\t" + format.format(averages.get(1)) + "\t\t\t\t" + format.format(averages.get(2)));
         System.out.println("Minimum:\t\t\t\t" + Collections.min(category) + "\t\t\t" + Collections.min(pressure) + "\t\t\t\t" + format.format(Collections.min(mph)));
         System.out.println("Maximum:\t\t\t\t" + Collections.max(category) + "\t\t\t" + Collections.max(pressure) + "\t\t\t\t" + format.format(Collections.max(mph)));
+        System.out.printf("");
     }
 
     static ArrayList<String> format(ArrayList<Integer> year, ArrayList<Integer> pressure, ArrayList<Double> mph, ArrayList<String> name, ArrayList<Integer> category) {
