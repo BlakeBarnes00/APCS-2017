@@ -1,4 +1,4 @@
-PROJECT TITLE: 5.07 PlanetGravity.java
+PROJECT TITLE: 7.03 PlanetGravity.java
 	PURPOSE OF PROJECT: Static Methods
 	VERSION or DATE: 1/09/2018
 	AUTHORS: Ellis Barnes
