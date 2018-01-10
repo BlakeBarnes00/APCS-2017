@@ -1,5 +1,11 @@
 package mod7.Assignments;
 
+
+/**
+ * @author Ellis Barnes
+ * @version 1/10/2018
+ * Program that finds the Y-value when it has the radius and X-value
+ */
 public class CirclePoints {
     public static void main(String[] args) {
         System.out.println("Points on a Circle with a Radius of 1.0");

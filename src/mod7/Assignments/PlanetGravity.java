@@ -1,5 +1,10 @@
 package mod7.Assignments;
 
+/**
+ * @author Ellis Barnes
+ * @version 12/10/2017
+ * Program to demonstrate the use of static functions
+ */
 public class PlanetGravity {
     public static void main(String[] args) {
         String[] planets    = { "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" };

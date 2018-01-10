@@ -6,10 +6,17 @@ package Test;
  */
 public class Test {
     public static void main(String[] args) {
-        int[] arrNum = { 1, 2, 3, 4, 5 };
+        String[] strings = { "Hamlet", "Bacon" ,"Programming", "Science" };
+        int length = someMethod(strings);
+        System.out.println(length);
+    }
 
-        for(int a : arrNum) {
-            System.out.println(a);
+    public static int someMethod(String[] s) {
+        int max_length = 0;
+        for(String a : s) {
+            if(a.length() > max_length)
+                max_length = a.length();
         }
+        return max_length;
     }
 }
