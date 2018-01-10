@@ -11,6 +11,6 @@ public class CirclePoints {
     }
 
     static double calculate(double x, double r) {
-        return Math.sqrt(r - x); // For some reason I cannot get the proper output, I have tried several different methodsgggggg
+        return Math.sqrt(r - x); // For some reason I cannot get the proper output, I have tried several different methods
     }
 }
