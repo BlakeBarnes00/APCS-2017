@@ -10,7 +10,6 @@ public class PlanetWeight {
         String[] planets    = { "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" };
         double[] gravity    = { 3.70, 8.87, 9.79, 3.70, 24.78, 10.44, 8.86, 11.13 };
         double[] weight     = { 37.79, 90.60, 100.00, 37.79, 253.12, 106.64, 90.50, 113.69 };
-        double[] mass       = { 3.30e23, 4.869e24, 5.972e24, 6.4219e23, 1.900e27, 5.68e26, 8.683e25, 1.0247e26 };
 
         print(planets, gravity, weight);
     }
