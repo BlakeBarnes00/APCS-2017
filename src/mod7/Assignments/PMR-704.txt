@@ -1,0 +1,13 @@
+PROJECT TITLE: 7.04 PlanetGravity.java
+	PURPOSE OF PROJECT: Static Methods
+	VERSION or DATE: 2/01/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    I broke down the problems into different functions and made the process look
+	    better in the main function by having very minimal things there. I passed
+	    variables through the functions by using the parameters, this helped move
+	    things through the program very neatly.
+	***********************************************************************************
+	    I will use all these things that I described in future programs so that my
+	    programs will be better looking and easier to understand from somebody else's
+	    perspective.
