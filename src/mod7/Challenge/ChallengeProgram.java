@@ -36,17 +36,18 @@ public class ChallengeProgram {
     }
 
     public static void runTrials(int trials, int darts) {
-        double average = 0;
+        double totalAverage = 0;
         for(int i = 0; i < trials; i++) {
-            double[] x = generateCoordinates(darts);
-            double[] y = generateCoordinates(darts);
+            double average = 0;
+            double[] x = generateCoordinates(darts), y = generateCoordinates(darts);
 
             for(int j = 0; j < darts; j++) {
                 average += getPI(x[j], y[j]) / darts;
             }
 
-            System.out.printf("Trial[%2d]: pi = %2.6f %n" ,i+1 ,average);
-            average = 0; // Reset average
+            System.out.printf("Trial [%2d]: PI = %2.6f %n" ,i+1 ,average);
+            totalAverage += average / trials;
         }
+        System.out.printf("Estimate of PI = %2.6f%n", totalAverage);
     }
 }
