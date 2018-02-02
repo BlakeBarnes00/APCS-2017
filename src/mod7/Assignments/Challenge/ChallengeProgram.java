@@ -1,4 +1,4 @@
-package mod7.Challenge;
+package mod7.Assignments.Challenge;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -18,9 +18,6 @@ public class ChallengeProgram {
 
     public static double getPI(double x, double y) {
         return (Math.pow(x, 2) + Math.pow(y, 2)) * Math.PI;
-    }
-    public static double getAverage(double hitPoint) {
-        return 0.0;
     }
 
     // Generates a set of random coordinates

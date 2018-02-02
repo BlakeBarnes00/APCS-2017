@@ -1,0 +1,12 @@
+PROJECT TITLE: 7.04 ChallengeProgram.java
+	PURPOSE OF PROJECT: Static Methods
+	VERSION or DATE: 2/01/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    This program is showing how to simulate a dart board by generating random
+	    doubles and applying them to the pythagorean theorem so that I can calculate
+	    if it was a hit or a miss. There are a lot of static functions so that the
+	    main method is completely clean and that we can easily do work.
+	***********************************************************************************
+	    I will continue to use static methods so that I can easily write new and useful
+	    functions.
