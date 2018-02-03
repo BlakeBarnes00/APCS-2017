@@ -1,0 +1,11 @@
+PROJECT TITLE: 08.03 AnimalV3.java
+	PURPOSE OF PROJECT: Object Oriented Programming
+	VERSION or DATE: 2/02/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    This program was to show how to properly use Classes and Objects. I learned how
+	    to use default and other constructors very easily, and how to use classes so
+	    I could create other objects without having to rewrite the code.
+	***********************************************************************************
+	    I will use classes and objects to prevent me from having to repeat code over
+	    again and make my programming more enjoyable and functional.
