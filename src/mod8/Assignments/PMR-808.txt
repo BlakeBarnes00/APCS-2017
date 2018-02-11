@@ -1,0 +1,11 @@
+PROJECT TITLE: 08.08 AnimalV8.java
+	PURPOSE OF PROJECT: Object Oriented Programming
+	VERSION or DATE: 2/11/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    In this lesson I showed that I can make arrays of objects and still access the
+	    data that is needed inside of the individual objects.
+	***********************************************************************************
+	    I will use classes and objects to prevent me from having to repeat code over
+	    again and make my programming more enjoyable and functional. I will also use
+	    Arrays when there are multiple objects of the same type.
