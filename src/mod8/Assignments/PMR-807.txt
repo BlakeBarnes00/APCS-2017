@@ -1,0 +1,10 @@
+PROJECT TITLE: 08.03 AnimalV7.java
+	PURPOSE OF PROJECT: Object Oriented Programming
+	VERSION or DATE: 2/11/2018
+	AUTHORS: Ellis Barnes
+	**************************** P M R ************************************************
+	    This program showed me how to properly create and use multiple objects at once
+	    and then I printed out the data from them using 'printf()'.
+	***********************************************************************************
+	    I will use classes and objects to prevent me from having to repeat code over
+	    again and make my programming more enjoyable and functional.
